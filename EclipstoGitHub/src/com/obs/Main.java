@@ -7,6 +7,10 @@ public class Main {
 		ArithmeticOperation AO = new ArithmeticOperation();
 		System.out.print(AO.Addition(15, 22));
 		System.out.print(AO.Devided(15, 22));
+		
+		
+		Display DM = new Display();
+		DM.DisplayMsg();
 
 	}
 
